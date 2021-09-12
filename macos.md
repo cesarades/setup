@@ -1,45 +1,19 @@
 # Setup instructions
 
-You will find below the instructions to set up you computer for [Le Wagon Web Development course](https://www.lewagon.com/web-development-course/full-time)
+Welcome to my new mac setup guide! This setup guide is a fork of Le Wagon's combined with another public [repository](https://sourabhbajaj.com/mac-setup/) (and my own settings as well). Hope this helps!
 
-Please **read them carefully and execute all commands in the following order**. If you get stuck, don't hesitate to ask a teacher for help :raising_hand:
+Please **read them carefully and execute all commands in the following order**.
 
 Let's start :rocket:
 
 
 ## Zoom
 
-To be able to interact when we are not in the same physical room, we will be using [Zoom](https://zoom.us/), a video conferencing tool.
-
-:warning: If you already have Zoom installed, please make sure that the version is at least **5.6**.
+We will be using [Zoom](https://zoom.us/), a video conferencing tool, on our new mac.
 
 - Go to [https://zoom.us/download](https://zoom.us/download)
 - Under **Zoom Client** click the **Download** button
 - Open the file you have just downloaded to install the app
-- Open the Zoom app
-- If you already have a Zoom account, sign in using your credentials
-- If not, click on the **Sign Up Free** link:
-
-![Sign Up Free to Zoom](images/zoom_sign_up_free.png)
-
-You will be redirected to Zoom's website to complete a form.
-
-When it's done, go back to the Zoom app and sign in using your credentials.
-
-You should then see a screen like this:
-
-![Zoom Home Screen](images/zoom_home_screen.png)
-
-You can now close the Zoom app.
-
-
-## GitHub account
-
-Have you signed up to GitHub? If not, [do it right away](https://github.com/join).
-
-:point_right: **[Upload a picture](https://github.com/settings/profile)** and put your name correctly on your GitHub account. This is important as we'll use an internal dashboard with your avatars. Please do this **now**, before you continue with this guide.
-
-![GitHub picture](images/github_picture.png)
 
 
 ## Apple Silicon Chips
@@ -89,14 +63,6 @@ Press `CMD` + `I` on the Terminal Rosetta app, then check the box "Open using Ro
 
 </details>
 
-
-## A note about quitting apps on a Mac
-
-Clicking the little red cross in the top left corner of the application window on a Mac **does not really quit it**, it just closes an active window. To quit the application _for real_ either press `CMD + Q` when the application is active, or navigate to `APP_NAME` -> `Quit` in the menu bar.
-
-![Quit Terminal on macOS](images/macos_quit.png)
-
-During this setup you will be asked to **quit and re-open** applications multiple times, please make sure you do it properly :pray:
 
 ## Command Line Tools
 
@@ -205,7 +171,6 @@ Copy-paste the following commands in your terminal:
 ```bash
 code --install-extension ms-vscode.sublime-keybindings
 code --install-extension emmanuelbeziat.vscode-great-icons
-code --install-extension MS-vsliveshare.vsliveshare
 code --install-extension rebornix.ruby
 code --install-extension dbaeumer.vscode-eslint
 ```
@@ -213,27 +178,8 @@ code --install-extension dbaeumer.vscode-eslint
 Here is a list of the extensions you are installing:
 - [Sublime Text Keymap and Settings Importer](https://marketplace.visualstudio.com/items?itemName=ms-vscode.sublime-keybindings)
 - [VSCode Great Icons](https://marketplace.visualstudio.com/items?itemName=emmanuelbeziat.vscode-great-icons)
-- [Live Share](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare)
 - [Ruby](https://marketplace.visualstudio.com/items?itemName=rebornix.Ruby)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-
-### Live Share configuration
-
-[Visual Studio Live Share](https://visualstudio.microsoft.com/services/live-share/) is a VS Code extension which allows you to share the code in your text editor for debugging and pair-programming: let's set it up!
-
-Launch VS Code from your terminal by typing `code` and pressing `ENTER`.
-
-Click on the little arrow at the bottom of the left bar :point_down:
-
-![VS Code Live Share](images/vscode_live_share.png)
-
-- Click on the "Share" button, then on "GitHub (Sign in using GitHub account)".
-- A popup appears asking you to sign in with GitHub: click on "Allow".
-- You are redirected to a GitHub page in you browser asking you to authorize Visual Studio Code: click on "Continue" then "Authorize github".
-- VS Code may display additional pop-ups: close them by clicking "OK".
-
-That's it, you're good to go!
 
 
 ## macOS Terminal Theme
@@ -615,22 +561,6 @@ curl -Ls https://raw.githubusercontent.com/lewagon/setup/master/check.rb > _.rb 
 :x: If not, **contact a teacher**.
 
 
-## Kitt
-
-:warning: If you have received an email from Le Wagon inviting you to sign up on Kitt (our learning platform), you can safely skip this step. Instead, please follow the instructions in the email you received if you haven't done so already.
-
-If you are unsure about what to do, you can follow [this link](https://kitt.lewagon.com/). If you are already logged in, you can safely skip this section. If you are not logged in, click on `Enter Kitt as a Student`. If you manage to login, you can safely skip this step. Otherwise ask a teacher whether you should have received an email or follow the instructions below.
-
-Register as a Wagon alumni by going to [kitt.lewagon.com/onboarding](http://kitt.lewagon.com/onboarding). Select your batch, sign in with GitHub and enter all your information.
-
-Your teacher will then validate that you are indeed part of the batch. You can ask him to do it as soon as you completed the registration form.
-
-Once the teacher has approved your profile, go to your email inbox. You should have 2 emails:
-
-- One from Slack, inviting you to the Le Wagon Alumni slack community (where you'll chat with your buddies and all the previous alumni). Click on **Join** and fill the information.
-- One from GitHub, inviting you to `lewagon` team. **Accept it** otherwise you won't be able to access the lecture slides.
-
-
 ## Slack
 
 [Slack](https://slack.com/) is a communcation platform pretty popular in the tech industry.
@@ -719,8 +649,5 @@ You must pin:
 
 ## Setup completed!
 
-Your computer is now all set for [Le Wagon Web Development course](https://www.lewagon.com/web-development-course/full-time) :muscle: :clap:
-
-Enjoy the bootcamp, you will nail it :rocket:
-
+Your computer is now all setup and ready to go :muscle: :clap:
 
